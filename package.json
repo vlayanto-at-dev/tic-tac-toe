@@ -1,0 +1,32 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic tac toe game",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=3030 nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vlayanto-at-dev@github.com/vlayanto-at-dev/tic-tac-toe.git"
+  },
+  "keywords": [
+    "tic",
+    "tac",
+    "toe",
+    "games"
+  ],
+  "author": "Fin Layanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlayanto-at-dev/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/vlayanto-at-dev/tic-tac-toe#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
